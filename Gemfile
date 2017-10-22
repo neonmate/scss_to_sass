@@ -15,6 +15,10 @@ gem 'jbuilder'
 gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
+gem 'active_type'
+gem 'simple_form'
+gem 'assignable_values'
+gem 'autosize-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -28,3 +32,5 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+ruby '2.4.2'

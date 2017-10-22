@@ -1,0 +1,8 @@
+en:
+  activerecord:
+    attributes:
+      converter:
+        source: Source
+        from_syntax: Source syntax
+        output: Output
+        submit: Convert

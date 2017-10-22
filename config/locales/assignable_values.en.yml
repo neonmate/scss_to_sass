@@ -1,0 +1,6 @@
+en:
+  assignable_values:
+    converter:
+      from_syntax:
+        scss: 'SCSS'
+        sass: 'SASS'

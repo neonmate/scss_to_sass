@@ -1,0 +1,5 @@
+= simple_form_for @converter, url: converter_path do |form|
+  = form.input :source, as: :text
+  = form.input :from_syntax, collection: form.object.humanized_from_syntaxes, value_method: :value, label_method: :humanized, include_blank: false
+  = form.input :output, as: :text, disabled: true
+  = form.button :submit
