@@ -1,0 +1,14 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %title SCSS to SASS
+    %meta{:charset => "UTF-8"}/
+    %meta{:content => "Convert SCSS to SASS and vice versa.", :name => "description"}/
+    %meta{:content => "SCSS, SASS", :name => "keywords"}/
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    = favicon_link_tag 'favicon.png'
+  %body
+    = render 'layouts/navigation'
+    .container= yield
